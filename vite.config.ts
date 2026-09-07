@@ -9,7 +9,7 @@ export default defineConfig({
     netlifyPlugin(),
     tailwindcss(),
     remix({
-      serverBuildFile: "server.js",
+      
       future: {
         v3_fetcherPersist: true,
         v3_relativeSplatPath: true,
